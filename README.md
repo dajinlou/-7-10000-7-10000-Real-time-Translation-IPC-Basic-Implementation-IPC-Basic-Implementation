@@ -1,1 +1,28 @@
-# -7-10000-7-10000-Real-time-Translation-IPC-Basic-Implementation-IPC-Basic-Implementation
+# IPC代码实现
+
+**进程间通信的目的**
+
+> 数据交换：
+>
+> 共享资源：
+>
+> 进程同步：
+>
+> 消息传递：
+
+**实现原理：**通信进程能够访问**相同**的内存区域。
+
+主要分为四大类:
+
+- 管道
+- System V IPC（消息队列、信号量、共享内存（内存映射） **通过命名空间实现**）
+- POSIX IPC（消息队列、信号量、共享内存 **通过文件实现**）
+- 套接字
+
+
+
+**运行步骤**
+
+> 执行./build.sh脚本即可，然后在当前目录下的bin文件下生成可执行文件
+
+文字版描述 [IPC详解+实现](https://www.yuque.com/jinjunhui-mmghm/aox990/dybqgdw4hetxve50)
